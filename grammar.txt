@@ -1,0 +1,17 @@
+program -> stmt *
+stmt -> const | func | print
+
+print -> PRINT exp EOL
+const -> LET id = exp EOL
+func -> FUNC id ( params ) = exp EOL
+params -> eps | id params_list
+params_list -> , id params_list | eps
+
+call -> id ( args ) 
+args -> eps | exp args_tail 
+args_tail -> eps | , exp args_tail
+
+exp -> F | F (+|-) exp
+F -> E | E (*|/) F
+E -> Elm | Elm (+|-) E
+Elm -> num | id | call | (exp)

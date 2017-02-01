@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MathLib", "MathLib\MathLib.csproj", "{6556E753-B27D-422F-888C-8916A63568A8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MathApp", "MathApp\MathApp.csproj", "{7BDA1C62-4C79-4321-8832-1B02F47699D0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6556E753-B27D-422F-888C-8916A63568A8}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{6556E753-B27D-422F-888C-8916A63568A8}.Debug|x86.ActiveCfg = Debug|x86
+		{6556E753-B27D-422F-888C-8916A63568A8}.Debug|x86.Build.0 = Debug|x86
+		{6556E753-B27D-422F-888C-8916A63568A8}.Release|Any CPU.ActiveCfg = Release|x86
+		{6556E753-B27D-422F-888C-8916A63568A8}.Release|x86.ActiveCfg = Release|x86
+		{6556E753-B27D-422F-888C-8916A63568A8}.Release|x86.Build.0 = Release|x86
+		{7BDA1C62-4C79-4321-8832-1B02F47699D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BDA1C62-4C79-4321-8832-1B02F47699D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BDA1C62-4C79-4321-8832-1B02F47699D0}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{7BDA1C62-4C79-4321-8832-1B02F47699D0}.Debug|x86.Build.0 = Debug|Any CPU
+		{7BDA1C62-4C79-4321-8832-1B02F47699D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BDA1C62-4C79-4321-8832-1B02F47699D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7BDA1C62-4C79-4321-8832-1B02F47699D0}.Release|x86.ActiveCfg = Release|Any CPU
+		{7BDA1C62-4C79-4321-8832-1B02F47699D0}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		Policies = $0
+		$0.TextStylePolicy = $1
+		$1.inheritsSet = null
+		$1.scope = text/x-csharp
+		$0.CSharpFormattingPolicy = $2
+		$2.NamespaceBraceStyle = EndOfLine
+		$2.ClassBraceStyle = EndOfLine
+		$2.InterfaceBraceStyle = EndOfLine
+		$2.StructBraceStyle = EndOfLine
+		$2.EnumBraceStyle = EndOfLine
+		$2.MethodBraceStyle = EndOfLine
+		$2.ConstructorBraceStyle = EndOfLine
+		$2.DestructorBraceStyle = EndOfLine
+		$2.AfterDelegateDeclarationParameterComma = True
+		$2.inheritsSet = Mono
+		$2.inheritsScope = text/x-csharp
+		$2.scope = text/x-csharp
+	EndGlobalSection
+EndGlobal
